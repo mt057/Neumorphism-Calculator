@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E8F5FC;
+    padding: 1rem;
+    color: #699AB6;
+}
+
+.calculator {
+    padding: 32px 24px;
+    width: 240px;
+    background-color: #E8F5FC;
+    box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5), -6px -6px 10px rgba(255, 255, 255, 0.6);
+    border-radius: 16px;
+}
+
+#display {
+    text-align: right;
+    padding: 12px 8px;
+    font-family: monospace;
+    border-radius: 6px;
+    background-color: #e3f3fb;
+    box-shadow: inset 6px 6px 10px rgba(164, 216, 243, 0.5), inset -6px -6px 10px rgba(255, 255, 255, 0.6);
+    margin-bottom: 24px;
+    margin: 0 0 8px 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 16px;
+    color: #6B8AFA;
+    letter-spacing: 2px;
+
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 16px 12px;
+    grid-template-columns: repeat(4, 44px);
+    grid-template-rows: repeat(5, 44px);
+    justify-content: center;
+}
+
+button {
+    background-color: #E8F5FC;
+    box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5), -6px -6px 10px rgba(255, 255, 255, 0.6);
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    color: #699AB6;
+    font-weight: 500;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background-color: #dff1fb;
+}
+
+button:active:focus {
+    transform: translateY(2px);
+    box-shadow: inset 6px 6px 10px rgba(164, 216, 243, 0.5), inset -6px -6px 10px rgba(255, 255, 255, 0.6);
+}
+
+button:focus {
+    box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5), -6px -6px 10px rgba(255, 255, 255, 0.6), inset 6px 6px 10px rgba(164, 216, 243, 0.5), inset -6px -6px 10px rgba(255, 255, 255, 0.6);
+}
+
+.buttons button.equal {
+    background-color: #6B8AFA;
+    color: white;
+    box-shadow: 3px 11px 25px rgba(48, 91, 248, 0.6), -6px -6px 10px rgba(255, 255, 255, 0.6), inset -3px -3px 14px rgba(255, 255, 255, 0.2), inset 8px 8px 14px rgba(48, 91, 248, 0.5);
+    grid-row-start: span 2;
+    grid-column-start: 4;
+    border-radius: 50px;
+}
+
+.buttons button.equal:hover {
+    background-color: #5277f9;
+}
+
+.buttons button.equal:active:focus,
+.buttons button.equal:focus {
+    box-shadow: 3px 11px 25px rgba(8, 60, 247, 0.6), -6px -6px 10px rgba(255, 255, 255, 0.9), inset 3px 11px 15px rgba(8, 60, 247, 0.5), inset -6px -6px 8px rgba(206, 216, 253, 0.5);
+
+}
+
+.buttons button.operator {
+    color: #6B8AFA;
+
+}
+
+
+.buttons button.clear {
+    color: #6B8AFA;
+
+}
