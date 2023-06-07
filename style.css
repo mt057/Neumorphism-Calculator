@@ -10,7 +10,7 @@ body {
 
 .calculator {
     padding: 32px 24px;
-    width: 240px;
+    width: 220px;
     background-color: #E8F5FC;
     box-shadow: 6px 6px 10px rgba(164, 216, 243, 0.5), -6px -6px 10px rgba(255, 255, 255, 0.6);
     border-radius: 16px;
