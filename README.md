@@ -2,6 +2,9 @@
 
 Neumorphism Calculator is a JavaScript-based project that implements a calculator with a neumorphic design style. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
+![javascript calculator,calculator html css javascript,calculator javascript,calculator project javascript,javascript calculator for beginners,create calculator using javascript,javascr](https://github.com/mt057/Neumorphism-Calculator/assets/82698555/2d7335b1-e261-40d3-bc29-dd7a5818daf2)
+
+
 ## MIT License
 
 Copyright (c) 2023 Muhammad Tariq
